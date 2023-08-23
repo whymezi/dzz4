@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.block_input {
+  width: 300px;
+  height: 40px;
+  color: black;
+  background-color: rgb(99, 154, 91);
+  border-color: rgb(35, 96, 63);
+  border-radius: 25px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+::placeholder{
+  color: rgb(168, 190, 163);
+}
+.block_button {
+  width: 200px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(16, 82, 21);
+  border-color: rgb(14, 46, 21);
+  margin-left: 155px;
+  margin-top: 30px;
+}
+.all-block {
+  display: grid;
+  margin: 150px auto;
+  width: 500px;
+  height: 450px;
+  background-color: rgb(190, 215, 191);
+  border-radius: 30px;
+  border-color: rgb(8, 52, 8);
+}
+.block2 {
+  margin: 60px auto;
+}
+h2{
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
